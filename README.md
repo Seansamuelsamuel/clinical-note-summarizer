@@ -63,7 +63,8 @@ Screenshots of the training output, ROUGE results, and an example inference are 
 
 ---
 
-Evaluation and ROUGE
+**Evaluation and ROUGE**
+
 At the end of training, I used a metric called ROUGE (Recall-Oriented Understudy for Gisting Evaluation) to
 Check how close the generated summaries were to the original human-written ones.
 
