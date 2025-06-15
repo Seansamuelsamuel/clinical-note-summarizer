@@ -63,17 +63,18 @@ Screenshots of the training output, ROUGE results, and an example inference are 
 
 ---
 
-## 📂 Folder Structure
+Evaluation and ROUGE
+At the end of training, I used a metric called ROUGE (Recall-Oriented Understudy for Gisting Evaluation) to
+Check how close the generated summaries were to the original human-written ones.
 
-```
-ClinicalNoteSummarizer_Project/
-├── clinical_summary_generator.ipynb
-├── dataset/
-│   └── [MTS CSVs]
-├── screenshots/
-│   ├── sample_dialogue_summary.png
-│   └── rouge_scores.png
-```
+ROUGE compares the overlap of words and phrases between the model's output and the reference
+- ROUGE-1 looks at matching individual words
+- ROUGE-2 checks for two-word pairs (bigrams)
+- ROUGE-L finds the longest matching word sequence
+My results were:
+- ROUGE-1: 0.45
+- ROUGE-2: 0.32
+- ROUGE-L: 0.41
+These scores show that the model is doing a decent job of generating relevant summaries that are similar to what a doctor might write manually
 
----
 
