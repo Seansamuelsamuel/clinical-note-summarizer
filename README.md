@@ -79,7 +79,9 @@ My results were:
 These scores show that the model is doing a decent job of generating relevant summaries that are similar to what a doctor might write manually
 
 **REQUIREMENTS AND HOW TO RUN**
-Hi, this is just a small note on how to run the project and what things you need. I’ve tried to keep it simple.
+
+
+This is just a small note on how to run the project and what things you need. I’ve tried to keep it simple.
 
 
 1. WHAT YOU NEED INSTALLED
